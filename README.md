@@ -11,6 +11,8 @@ cd reactui
 
 npm start
 
+npm test
+
 ## Inspiration For This Project
 
 I wanted an easier way to generate docs from comments. There are tools for that. But the problem is if your docs rely on very outdated comments.
