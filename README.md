@@ -1,5 +1,6 @@
-# CleanComments
-Find outdated comments
+# Clean Code Comments
+
+If you really need to comment your code then the comments need to be up-to-date. This tool helps manage that so your documents rely on accurate comments. No comments are better than misleading comments.
 
 ## How it Works!
 
