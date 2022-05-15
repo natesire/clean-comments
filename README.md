@@ -3,9 +3,11 @@ Find outdated comments
 
 ## How it Works!
 
-We scrape "git blame" to find timestamps of each line. We then look for comment lines with very out-of-date timestamps compared to the surrounding code. Note that this will not work with inline comments unless we build our own diff tool.
+We scrape "git blame" to find timestamps of each line. We then look for comment lines with very out-of-date timestamps compared to the surrounding code. The open source version only works with commented lines above the code line. The commercial version uses an extra system that provides more comment analysis like inline comments.
 
 ## Start
+
+Easy way to see all the comments for your code project.
 
 cd reactui
 
@@ -15,7 +17,7 @@ npm test
 
 ## Inspiration For This Project
 
-I wanted an easier way to generate docs from comments. There are tools for that. But the problem is if your docs rely on very outdated comments.
+I wanted an easier way to generate docs from comments. There are automation tools for that. The problem is if your docs rely on very outdated comments then no documents could actually be better than out-of-date documents.
 
 # Features
 
