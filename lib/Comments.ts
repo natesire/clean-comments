@@ -3,17 +3,30 @@ import { exec } from 'child_process'; // going to use child_process to execute c
 
 // run system shell command
 
+interface Comment {
+  line: string;
+  dateStamp: string;
+}
 
 
+export class Comments implements Iterable<Comment> {
 
-export class Comments {
+  public line: string;
 
-    command() {
-        let command = `git blame README.md`;
+  constructor(line: string) {
+    this.line = line;
+  }
+
+  next(): IteratorResult<Comment> {
+    return this.line;
+  }
+
+  command() {
+    let command = `git blame README.md`;
         let result = exec(command, (error, stdout, stderr) => {
-        if (error) {
-            console.log(error);
-        }
+            if (error) {
+                console.log(error);
+            }
      console.log(getDateStamp(stdout));
         }
     );

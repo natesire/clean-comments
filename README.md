@@ -40,7 +40,7 @@ Solution: npm i -g typescript
 
 2 VSCode is not respecting 2 spaces for tab
 
-Solution:
+Solution: Turn off "Detect Indentation"
 
 # Contributors
 
