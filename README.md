@@ -33,3 +33,5 @@ I wanted an easier way to generate docs from comments. There are automation tool
 Nate Sire
 
 Chris Tulin
+
+Nik Studer
