@@ -6,6 +6,10 @@ If you really need to comment your code then the comments need to be up-to-date.
 
 We scrape "git blame" to find timestamps of each line. We then look for comment lines with very out-of-date timestamps compared to the surrounding code. The open source version only works with commented lines above the code line. The commercial version uses an extra system that provides more comment analysis like inline comments.
 
+## Open Source
+
+The npm package is open source. But the server version is commercial.
+
 ## Start
 
 Easy way to see all the comments for your code project.
