@@ -44,4 +44,4 @@ Solution: Turn off "Detect Indentation"
 
 # Contributors
 
-Nate Sire, Chris Tulin, Nik Studer, Kervin Vasquez, Carito Ponce, Jai Schmidt, Jing Xing
+Nate Sire, Chris Tulin, Nik Studer, Kervin Vasquez, Carito Ponce, Jai Schmidt, Jing Xing, Sonia Bhandari, Rohit Rana, Rajat
