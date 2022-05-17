@@ -9,16 +9,13 @@ interface Comment {
 }
 
 
-export class Comments implements Iterable<Comment> {
+export class Comments implements Comment {
 
   public line: string;
+  public dateStamp: string;
 
   constructor(line: string) {
     this.line = line;
-  }
-
-  next(): IteratorResult<Comment> {
-    return this.line;
   }
 
   command() {
