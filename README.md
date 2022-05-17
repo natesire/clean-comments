@@ -22,7 +22,7 @@ npm test
 
 ## Inspiration For This Project
 
-I wanted an easier way to generate docs from comments. There are automation tools for that. The problem is if your docs rely on very outdated comments then no documents could actually be better than out-of-date documents.
+I wanted an easier way to generate docs from comments. There are automation tools for that. White papers have been written just on the subject of managing outdated comments. This tool is coming to the rescue.
 
 # Features
 
