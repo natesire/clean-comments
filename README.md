@@ -34,9 +34,13 @@ I wanted an easier way to generate docs from comments. There are automation tool
 
 # Troubleshooting
 
-Error: To get access to the TypeScript compiler tsc from the command line either
+1 Error: To get access to the TypeScript compiler tsc from the command line either
 
 Solution: npm i -g typescript
+
+2 VSCode is not respecting 2 spaces for tab
+
+Solution:
 
 # Contributors
 

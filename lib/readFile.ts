@@ -7,6 +7,16 @@ let result = exec(command, (error, stdout, stderr) => {
     if (error) {
         console.log(error);
     }
-    console.log(stdout);
+    console.log(getDateStamp(stdout));
     }
 );
+
+// get datestamp for line
+function getDateStamp(line: string) {
+    let dateStamp = line.substring(0, line.indexOf(' '));
+    return dateStamp;
+}
+
+export class Comments {
+    
+}
