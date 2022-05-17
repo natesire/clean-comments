@@ -32,6 +32,12 @@ I wanted an easier way to generate docs from comments. There are automation tool
 
 3. Sort by biggest timestamp differences (comment timestamp versus code timestamp)
 
+# Troubleshooting
+
+Error: To get access to the TypeScript compiler tsc from the command line either
+
+Solution: npm i -g typescript
+
 # Contributors
 
 Nate Sire
