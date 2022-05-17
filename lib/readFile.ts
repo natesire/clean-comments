@@ -1,3 +1,11 @@
-import fs from fs;
+import fs from 'fs';
 
-// read file from local dir
+// run system shell command
+let command = `git blame README.md`;
+let result = exec(command, (error, stdout, stderr) => {
+    if (error) {
+        console.log(error);
+    }
+    console.log(stdout);
+    }
+);
