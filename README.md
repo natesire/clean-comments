@@ -18,7 +18,7 @@ cd reactui
 
 npm start
 
-npm test
+cd lib && npm run test
 
 ## Inspiration For This Project
 
