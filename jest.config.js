@@ -1,8 +1,5 @@
-// jest.config.ts
-// Sync object
-const config = {
-    verbose: true,
-    transform: {
-    },
+/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
+module.exports = {
+  preset: 'ts-jest',
+  testEnvironment: 'node',
 };
-export default config;
