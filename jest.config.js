@@ -1,8 +1,8 @@
-module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-  transform: {
-    '^.+\\.ts?$': 'ts-jest',
-  },
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+// jest.config.ts
+// Sync object
+const config = {
+    verbose: true,
+    transform: {
+    },
 };
+export default config;
