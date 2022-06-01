@@ -14,6 +14,8 @@ export class FilesDirs implements TreeNode {
   }
 
   readDir(path: string) : string[] {
+    //check if file exists
+    if (!fs.existsSync(path)) throw new Error('path does not exist');
     // read all directories in path
     let dirs = fs.readdirSync(path);
     return dirs;

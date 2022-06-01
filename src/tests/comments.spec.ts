@@ -1,7 +1,8 @@
 import { FilesDirs } from '../FilesDirs';
 
 describe('FilesDirs', () => {
-  it('should create an instance', () => {
-    expect(new FilesDirs('path')).toBeTruthy();
+  it('should be a path', () => {
+    let filesDirs = new FilesDirs('./');
+    expect(filesDirs).toBeInstanceOf(FilesDirs);
   });
 });
